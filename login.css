@@ -1,0 +1,39 @@
+body { 
+    background-image:url("assets/background-for-a-makeup-website-819760746.png");
+  
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+
+
+}
+.card{
+    border:solid;
+    border-color:white;
+    border-radius: 25px;
+    background-color:aliceblue;
+    width: 350px;
+    box-shadow: 10px 5px 5px teal;
+    text-align:center;
+}
+input::placeholder{
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+    
+    
+}
+h1{ color:teal;
+    text-align:center;}
+
+.forgotU {text-align:center;
+}
+
+.forgotP {text-align:center;}
+.submit { width: 200px;
+    background-color:teal;
+
+}
